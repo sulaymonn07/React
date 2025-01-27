@@ -22,7 +22,7 @@ const Counter = () => {
                 <button onClick={onPlusClick} className="btn-plus">+</button>
             </div>
         </div>
-    )
+    ) 
 }
 
 export default Counter;

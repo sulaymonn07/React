@@ -51,6 +51,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .btn-plus, .btn-minus {
@@ -63,4 +64,75 @@
 
 .son {
   font-size: 2.3rem;
+}
+
+.todo-container{
+  min-height: 200px;
+  background-color: rgb(62, 114, 132);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.add-input, .add-btn{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+
+.add-input{
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+
+.add-input:focus{
+  border: 1px solid rgba(15, 57, 57, 0.275);
+  box-shadow: 0 2px 7px rgba(13, 42, 89, 0.275);
+}
+
+.add-btn{
+  background-color: #0f4950;
+  color: #fff;
+}
+
+.add-btn:hover{
+  box-shadow: 0 2px 7px #909090;
+}
+
+
+
+
+
+
+
+
+
+
+.todo{
+  background-color: #0f4950;
+  color: #fff;
+  min-width: 300px;
+  border-radius: 5px;
+  padding: 0.75rem 0.5rem;
+  margin-bottom: 1rem;
+
+
+}
+
+.todo-header{
+  margin-bottom: 1rem;
+}
+
+.app-title{
+  margin-bottom: 20px;
+  color: #fff;
 }
